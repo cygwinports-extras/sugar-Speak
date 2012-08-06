@@ -1,0 +1,5 @@
+SUGAR_TYPE="Honey"
+inherit sugar
+
+
+REQUIRES="gstreamer0.10-plugins-espeak"
