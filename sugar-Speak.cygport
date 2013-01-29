@@ -5,4 +5,6 @@ SUGAR_TYPE="Honey"
 inherit sugar
 
 
+PATCH_URI="44-cygwin.patch"
+
 REQUIRES="gstreamer0.10-plugins-espeak"
