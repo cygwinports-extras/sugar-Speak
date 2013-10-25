@@ -1,11 +1,3 @@
---- origsrc/Speak-44/activity.py	2012-11-07 21:15:04.000000000 -0600
-+++ src/Speak-44/activity.py	2013-01-28 19:24:02.332206200 -0600
-@@ -479,5 +479,3 @@ class SpeakActivity(SharedActivity):
-             brain.load(self, voice)
- 
- 
--# activate gtk threads when this module loads
--gtk.gdk.threads_init()
 --- origsrc/Speak-44/espeak.py	2012-11-07 21:07:04.000000000 -0600
 +++ src/Speak-44/espeak.py	2013-01-28 19:21:23.165102400 -0600
 @@ -63,7 +63,7 @@ class BaseAudioGrab(gobject.GObject):
